@@ -12,6 +12,8 @@ function gravidade() {
 //A função somente terá uso quando for chamada
 gravidade();
 
+//----------------------------------------------------------------------------------
+
 //Outros exemplos de função
 function somar(n1, n2) {
   let resultado = n1 + n2;
@@ -28,5 +30,15 @@ function nomeCompleto (nome, sobrenome) {
 nomeCompleto("Silvio", "Luís");
 nomeCompleto("Luciano", "do Valle");
 nomeCompleto("Oliveira", "Andrade");
+
+//---------------------------------------------------------------------------------------
+
+//Retorno da Função
+function nomeCompleto (nome, sobrenome) {
+  return`${nome} ${sobrenome}`;  
+}
+//Armazenar em uma variável objeto
+let completo = nomeCompleto("Silvio", "Luís");
+  console.log(completo);
 
 
